@@ -24,21 +24,34 @@ newItem.addEventListener("submit", (event) => {
     //delete 
     xbox.addEventListener('click', function(){
         li.remove()
+    })
     /* edit - A user will be able to click the "edit" button and see an input box appear
     - When the user clicks the "edit" button, a "save" button replace the "edit" button
     - The input box will automatically have the value of the list item
     - The user can edit and "save" the input box's value
     - On save, the input box will disappear, and the new value will appear*/
-    /*edit.addEventListener('click'function(){
-            const inputbox = document.createElement('input');
-            edit.innerHTML = 'save'
-            inputbox = item.value
-            edit.addEventListener('click'function(){
-
-            })*/
+    let editMode = false
+    edit.addEventListener('click', function(){
+            if (editMode){
+                editMode=false
+                const inputbox = li.querySelector('input')
+                inputbox.remove()
+                edit.innerHTML = 'edit'
+            }
+            else{
+                editMode = true
+                const inputbox = document.createElement('input');
+                li.append(inputbox)
+                edit.innerHTML = 'save'
+                edit.addEventListener("click", function(){ 
+                    const item = inputbox.value
+                    console.log(item)
+                    div.textContent = item
+            })
+         }
+            
     })
-    })
-
+})
 //Edit Button
 
 
