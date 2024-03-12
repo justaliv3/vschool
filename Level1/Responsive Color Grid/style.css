@@ -1,0 +1,213 @@
+
+
+
+#firstbox {
+        display: inline-block; /* the default for span */
+        width: 89%;
+        height: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 10px;
+        border: 10px solid #f5f2f3;
+        background-color: #F5C6D6;
+      }
+
+    
+#secondbox {
+    display: inline-block; /* the default for span */
+    width: 19%;
+    height: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #EE2E84;
+  }
+
+
+  #thirdbox {
+    display: inline-block; /* the default for span */
+    width: 20%;
+    height: 100px;
+    margin-left: 1px;
+
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #EE2E84;
+  }
+
+
+#fourthbox {
+    display: inline-block; /* the default for span */
+    width: 20%;
+    height: 100px;
+    margin-left: 1px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #EE2E84;
+  }
+
+
+#fifthbox {
+    display: inline-block; /* the default for span */
+    width: 20%;
+    height: 100px;
+    margin-left: 1px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #EE2E84;
+  }
+
+
+#sixthbox {
+    display: inline-block; /* the default for span */
+    width: 43%;
+    height: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #85CFD8;
+  }
+
+
+#seventhbox {
+    display: inline-block; /* the default for span */
+    width: 43%;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #85CFD8;
+  }
+
+
+#eighthbox {
+    display: inline-block; /* the default for span */
+    width: 75%;
+    height: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #8DC63F;
+  }
+
+
+#ninethbox {
+    display: inline-block; /* the default for span */
+    width: 11%;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #E76E34;
+  }
+
+
+
+@media only screen and (max-width: 768px){
+    #firstbox {
+        display: inline-block; /* the default for span */
+        width: 100%;
+        height: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 10px;
+        border: 10px solid #f5f2f3;
+        background-color: #F5C6D6;
+      }
+
+    
+#secondbox {
+    display: inline-block; /* the default for span */
+    width: 100%;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #EE2E84;
+  }
+
+
+  #thirdbox {
+    display: inline-block; /* the default for span */
+    width: 100%;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #EE2E84;
+  }
+
+
+#fourthbox {
+    display: inline-block; /* the default for span */
+    width: 100%;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #EE2E84;
+  }
+
+
+#fifthbox {
+    display: inline-block; /* the default for span */
+    width: 100%;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #EE2E84;
+  }
+
+
+#sixthbox {
+    display: inline-block; /* the default for span */
+    width: 100%;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #85CFD8;
+  }
+
+
+#seventhbox {
+    display: inline-block; /* the default for span */
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 10px solid #f5f2f3;
+    background-color: #85CFD8;
+  }
+
+
+#eighthbox {
+    display: inline-block; /* the default for span */
+    width: 100%;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #8DC63F;
+  }
+
+
+#ninethbox {
+    display: inline-block; /* the default for span */
+    width: 100%;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 10px solid #f5f2f3;
+    background-color: #E76E34;
+  }
+
+}
+    
