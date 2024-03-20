@@ -1,0 +1,26 @@
+h1{
+    background-color: crimson;
+    -webkit-text-fill-color: rgb(252, 252, 249);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 50px;
+    height: 60px;
+}
+
+body {
+    margin: 0 auto;
+    width: 80%; 
+    align-content: center;
+}
+
+button {
+    margin: auto;
+}
+
+footer{
+    grid-template-columns: auto;
+    background-color: aqua;
+}
