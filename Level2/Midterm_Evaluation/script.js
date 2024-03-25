@@ -2,6 +2,7 @@ const numbers = [4, 2, 7, 1, 9, 5]
 
 
 const result = numbers.sort(function(a, b){
+    console.log(a, b)
     return a-b
 })
 
