@@ -1,0 +1,266 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+@import url(https://fonts.google.com/specimen/Libre+Baskerville?query=baskerville);
+@font-face {
+    font-family: 'verdemoderna';
+    src:url('/assets/Verde\ Moderna.woff');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+li {
+    list-style: none;
+}
+
+
+.page-wrapper {
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+header {
+    background-image: url('./assets/header-background.jpg');
+}
+
+#banner {
+    padding: 50px 30px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+#title img {
+    height: 100px;
+}
+
+h3 {
+    text-transform: capitalize;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    color: #2e484c;
+    font-size: 1.8em;
+}
+
+.text-block-body {
+
+    font-family: "Libre Baskerville", sans-serif ;
+    color: #325050;
+    line-height: 30px;
+    font-size: 13px;
+    margin-left: 30px ;
+    margin-right: 30px
+
+}
+
+.text-block-heading {
+    margin-left: 30px ;
+    margin-right: 30px
+}
+
+
+#requirements {
+    background-image: url('./assets/Bamboo\ from\ CSS\ Zen\ Garden.png');
+    background-color: rgba(138, 188, 159, 0.5);
+
+}
+
+
+
+
+h1,
+h2 {
+    border-top: 10px;
+	/* padding: 0 10%; */
+	color: #fff;
+	font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+	/* padding-top: 50px; */
+	/* padding-bottom: 5px; */
+	border-bottom: none;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 3.2em;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	display: block;
+	/* padding-top: 5px;
+	padding-bottom: 30px; */
+	border-top: none;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 1.6em;
+	font-style: italic;
+
+}
+
+#credits {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 22px, 'Libre Baskerville' sans-serif;
+    background-image: url('/assets/Koi\ from\ CSS\ Zen\ Garden\ \(1\).jpg');
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 2em;
+    font-style: italic;
+}
+
+#credits a {
+    color: rgba(255, 255, 255, 0.7);;
+    font-style: normal
+}
+
+#cta {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 16.128px, 'Julius Sans One' sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+    min-height: 70px;
+    padding: 12px 0 0 0;
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 0.9;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#icons {
+    font-family: 'verdemoderna';
+    display: flex;
+    justify-content: center;
+    top: 3px;
+    font-weight: normal;
+    line-height: 1;
+    background: #134347;
+    padding: 3em 0;
+    gap: 44px; 
+}
+
+.icon {
+   font-size: 48px;
+   color: rgba(255, 255, 255, .6);
+
+}
+
+#design-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#design-selection li {
+    border-bottom: rgba(192, 202, 195, 1) 1px solid;
+    padding: 20px 85px;
+}
+
+.design-name {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: .25em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #607476;
+}
+
+.designer-name{
+    color: #616857;
+    font-size: .9em;
+    font-style: normal;
+}
+
+#navigation{
+    background-image: url('./assets/Bamboo\ from\ CSS\ Zen\ Garden.png');
+    background-color: rgba(138, 188, 159, 0.5);
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.navitem {
+
+    border-bottom: rgba(192, 202, 195, 1) 1px solid;
+    padding: 20px 85px;
+
+}
+
+.navitem a{
+
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #576b6c;
+
+}
+
+
+
+@media screen and (min-width:900px) {
+    .page-wrapper {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    header {
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 2fr 1fr;;
+    }
+
+    #intro {
+        grid-column: 1/2;
+    }
+
+    #authors {
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+
+    #design-selection {
+        grid-template-columns: 1fr;
+    }
+
+    #cta {
+        background-color: inherit;
+
+
+    }
+
+    #requirements {
+        grid-column: 1/2;
+    }
+    #participation {
+        grid-column: 1/2;
+    }
+
+    .navigation{
+        grid-template-columns: 1fr;
+    }
+
+    #navigation {
+        grid-column: 2/3;
+        grid-row: 3;
+    }
+
+    #emptyvoid{
+        grid-column: 2/3;
+        grid-row: 4;
+        background-color: rgba(192, 202, 195, 1) ;
+    }
+    footer{
+        grid-column: 1/3;
+    }
+}
