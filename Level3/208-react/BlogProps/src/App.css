@@ -1,0 +1,85 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic");
+
+* {
+  font-family: "lora";
+}
+
+header {
+  display: flex;
+  background-image: url("./assets/Clean\ Blog\ Home\ Background.jpg");
+  color:aliceblue;
+  height: 532px;
+  flex-direction: column;
+
+}
+
+.site-heading{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin: -24px;
+}
+
+header > h1 {
+  font-size: 5rem;
+  object-position: center;
+
+}
+
+.image{
+  position: absolute;
+  object-position: center;
+  object-fit: cover;
+  z-index: -1;
+  width: 100%;
+  /* background-color: #212529;
+  opacity: .5; */
+
+}
+
+nav{
+  display: flex;
+  margin: 0 185.5px;
+  justify-content: space-between;
+
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%; /* add this line */
+
+}
+
+.list > li {
+  margin-right: 20px; /* keep this line */
+  flex: 1; /* add this line */
+}
+
+.post-preview{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

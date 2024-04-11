@@ -11,6 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
+            "runtimeExecutable": "node",
             "program": "${workspaceFolder}/script.js"
         }
     ]
