@@ -1,0 +1,49 @@
+{
+    "menu": [
+      {
+        "appetizers": [
+            {
+                "item": "cheese sticks",
+                "ingredients": ["breadcumps", "cheese", "tomatoes"],
+                "description": "cheese sticks"
+            },
+            {
+                "item": "salad",
+                "ingredients": ["lettuce", "tomatoe", "purple onion"],
+                "description": "Simple salad"
+            }
+
+        ]
+      },
+      {
+        "cold sandwhiches": [
+            {
+                "item": "ham and cheese",
+                "ingredients": ["ham", "cheese", "tomatoes"],
+                "description": "Simple sandwhich"
+            },
+            {
+                "item": "Turkey Sandwhich",
+                "ingredients": ["lettuce", "tomatoe", "purple onion", "turkey"],
+                "description": "Simple turkey sandwhich"
+            }
+
+        ]
+      },
+      {
+        "item": "hot sandwhiches",
+        "ingredients": ["bread", "cheese", "tomatoes", "roastbeef"],
+        "description": "grilled roast beef sandwhich"
+      },
+      {
+        "item": "dessert",
+        "ingredients": ["chocolate", "strawberries", "whipped cream"],
+        "description": "chocolate moose"
+      },
+      {
+        "item": "drinks",
+        "ingredients": ["tomato juice", "hotsauce", "celery salt"],
+        "description": "bloody mary"
+      } 
+    ]
+}

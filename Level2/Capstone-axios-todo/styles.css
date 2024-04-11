@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.todo-item {
+    margin-bottom: 10px;
+}
