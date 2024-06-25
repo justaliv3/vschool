@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import React from 'react'
+import { useState , useEffect} from 'react'
 import './App.css'
 
 function Meme() {
@@ -10,11 +9,17 @@ function Meme() {
     })
     const [allMemes, setAllMemes] = useState([])
     
-    React.useEffect(async () => {
-        const res = await fetch("https://api.imgflip.com/get_memes")
-        const data = await res.json()
-        setAllMemes(data.data.memes)
-    }, [])
+
+
+      useEffect(() => {
+        async function fetchData(){
+          const res = await fetch("https://api.imgflip.com/get_memes")
+          const data = await res.json()
+          setAllMemes(data.data.memes)
+        }
+        fetchData()
+      }, [])
+  
     
     function getMemeImage() {
         const randomNumber = Math.floor(Math.random() * allMemes.length)

@@ -16,6 +16,9 @@ function caesarCipher(text, shift) {
     for (var i = 0; i < text.length; i++) {
         var char = text[i];
 
+        if (char === ' ') {
+            result += " "
+        }
 
         if (char >= 'a' && char <= 'z') {
 

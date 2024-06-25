@@ -1,0 +1,41 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input, textarea {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+span {
+  font-size: 24px;
+}
