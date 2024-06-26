@@ -24,3 +24,6 @@ function Rating({ rating, onChange }) {
 }
 
 export default Rating;
+
+
+

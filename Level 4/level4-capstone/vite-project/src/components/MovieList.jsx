@@ -1,7 +1,10 @@
 import React from 'react';
 import MovieItem from './MovieItem';
+import { useMovies } from './MovieContext';
 
-function MovieList({ movies, updateMovie, deleteMovie }) {
+function MovieList() {
+  const { movies, updateMovie, deleteMovie } = useMovies();
+
   return (
     <div>
       {movies.map((movie) => (

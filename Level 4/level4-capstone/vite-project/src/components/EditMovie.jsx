@@ -41,3 +41,4 @@ function EditMovie({ movie, handleUpdate }) {
 }
 
 export default EditMovie;
+

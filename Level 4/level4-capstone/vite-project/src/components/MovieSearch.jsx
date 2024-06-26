@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useMovies } from './MovieContext';
 
-function MovieSearch({ addMovie }) {
+function MovieSearch() {
   const [query, setQuery] = useState('');
   const [error, setError] = useState('');
+  const { addMovie } = useMovies();
 
   const searchMovie = async (e) => {
     e.preventDefault();
@@ -15,6 +17,7 @@ function MovieSearch({ addMovie }) {
           title: response.data.Title,
           year: response.data.Year,
           plot: response.data.Plot,
+          rating: 0, // Initialize rating to 0
         });
         setError('');
       } else {

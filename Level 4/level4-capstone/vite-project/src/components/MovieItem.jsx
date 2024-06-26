@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import EditMovie from './EditMovie';
 import Rating from './Rating';
+import { useMovies } from './MovieContext';
 
-function MovieItem({ movie, updateMovie, deleteMovie }) {
+function MovieItem({ movie }) {
   const [isEditing, setIsEditing] = useState(false);
+  const { updateMovie, deleteMovie } = useMovies();
 
   const handleEdit = () => {
     setIsEditing(true);
@@ -37,3 +39,4 @@ function MovieItem({ movie, updateMovie, deleteMovie }) {
 }
 
 export default MovieItem;
+
